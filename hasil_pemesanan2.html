@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Hasil Pemesanan Barang</title>
+</head>
+
+<background-color="#eeeeee">
+
+    <h2 align="center">A Web Page</h2>
+    <hr>
+
+    <!-- Menu navigasi -->
+    <table align="center" width="100%" background-color="white"
+           border="1" cellpadding="5">
+        <tr align="center">
+            <td><a href="#">Home</a></td>
+            <td><a href="#">Register</a></td>
+            <td><a href="#">Policy</a></td>
+            <td><a href="#">About</a></td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <!-- Tabel utama hasil pemesanan -->
+    <table align="center" width="85%" cellpadding="8">
+        <tr>
+            <!-- Foto produk di sebelah kiri -->
+          <td width="100%" valign="top" rowspan="8">
+             <img src="/assets/img.jpg"
+                alt="Foto Produk Samsung S23"
+                    width="250"
+                    height="200">
+                </td>
+
+            <td width="22%">Title Here :</td>
+            <td>Samsung Galaxy S23 Ultra</td>
+        </tr>
+
+        <tr>
+            <td valign="top">Description:</td>
+            <td>                  
+                year : 2023 <br>
+                Model : Samsung Galaxy S23 Ultra, 256GB, Phantom Black<br>
+                Condition : Mint like-new
+            </td>
+    
+        </tr>
+
+        <tr>
+            <td>Total Amount :</td>
+            <td>
+                
+            <input type="text"
+                    name="Pay to"
+                    value="15 juta"
+                    size="25">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Pay to :</td>
+            <td>
+                <input type="text"
+                    name="Pay to"
+                    value="123-456-789-0"
+                    size="25">
+            </td>
+            
+        </tr>
+
+        <tr>
+            <td>Payment Type :</td>
+            <td>
+                <select name="payment">
+                    <option>Visa Debit</option>
+                    <option>Mastercard</option>
+                    <option>Bank Transfer</option>
+                    <option>E-Wallet</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Account Holder :</td>
+            <td>
+                <input type="text"
+                       name="account_holder"
+                       value="Name Here"
+                       size="25">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Account No:</td>
+            <td>
+                <input type="text"
+                       name="account_number"
+                       value="123-456-789-0"
+                       size="25">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <input type="checkbox" checked>
+                Send to Mobile Phone
+                <br>
+
+                <input type="checkbox" checked>
+                Email me copy of transaction
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>Send to Mobile Phone :</td>
+            <td>
+                <input type="tel"
+                       name="mobile"
+                       value="1234567890, 1234567891"
+                       size="25">
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>Send to Email :</td>
+            <td>
+                <input type="email"
+                       name="email"
+                       value="nama@email.com"
+                       size="25">
+            </td>
+        </tr>
+
+        <!-- Tombol pembayaran -->
+        <tr>
+            <td colspan="3" align="center">
+                <br><br>
+                <button type="/hasil_pemesanan2.html">
+                    Pay using QuidLink
+                </button>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+</body>
+</html>
